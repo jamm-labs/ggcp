@@ -27,7 +27,7 @@ gmTextItems.forEach(function(item,i) {
 const galleryItems = document.querySelectorAll('.zoom-inner');
 //const src = 'https://lorempixel.com/600/400/city/';
 const src = [
-"glitch-assets/gameMechanics_moving_enemies.jpg?1552396669945",
+"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2FgameMechanics_moving_enemies.jpg?1552396669945",
 "https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2FgameMechanics_jumping.jpg?1551473692625",
 "https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2Fgame-mechanics_timer.jpg?1551473692531",
 "https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2FgameMechanics_jum_height.jpg?1551473692663",

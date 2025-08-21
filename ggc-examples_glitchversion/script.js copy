@@ -27,7 +27,7 @@ gmTextItems.forEach(function(item,i) {
 const galleryItems = document.querySelectorAll('.zoom-inner');
 //const src = 'https://lorempixel.com/600/400/city/';
 const src = [
-"glitch-assets/gameMechanics_moving_enemies.jpg?1552396669945",
+"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2FgameMechanics_moving_enemies.jpg?1552396669945",
 "https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2FgameMechanics_jumping.jpg?1551473692625",
 "https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2Fgame-mechanics_timer.jpg?1551473692531",
 "https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2FgameMechanics_jum_height.jpg?1551473692663",
@@ -59,13 +59,13 @@ const gm_example = [
 ];
 
 const gm_book = [
-"https://jamm-labs.github.io/3m/#game-mechanic-add-moving-enemies",
-"https://jamm-labs.github.io/3m/#game-mechanic-jumping-on-enemies",
-"https://jamm-labs.github.io/3m/#game-mechanic-add-a-countdown-timer",
-"https://jamm-labs.github.io/3m/#game-mechanic-longer-jumps-if-holding-jump-down",
-"https://jamm-labs.github.io/3m/#game-mechanic-smaller-sprite-collision-boxes",
-"https://jamm-labs.github.io/3m/#game-mechanic-extra-lives",
-"https://jamm-labs.github.io/3m/#game-mechanic-player-health",
+"https://en.flossmanuals.net/phaser-game-making-in-glitch/_full/#game-mechanic-add-moving-enemies",
+"https://en.flossmanuals.net/phaser-game-making-in-glitch/_full/#game-mechanic-jumping-on-enemies",
+"https://en.flossmanuals.net/phaser-game-making-in-glitch/_full/#game-mechanic-add-a-countdown-timer",
+"https://en.flossmanuals.net/phaser-game-making-in-glitch/_full/#game-mechanic-longer-jumps-if-holding-jump-down",
+"https://en.flossmanuals.net/phaser-game-making-in-glitch/_full/#game-mechanic-smaller-sprite-collision-boxes",
+"https://en.flossmanuals.net/phaser-game-making-in-glitch/_full/#game-mechanic-extra-lives",
+"https://en.flossmanuals.net/phaser-game-making-in-glitch/_full/#game-mechanic-player-health",
    ];
 
 galleryItems.forEach((item,i) => item.style.backgroundImage = `url(${src[i]})`);
@@ -111,12 +111,12 @@ const polish_example = [
    ];
 
 const polish_book = [
-"https://jamm-labs.github.io/3m/#polish-adding-our-own-sound-effects",
-"https://jamm-labs.github.io/3m/#polish-add-animation-to-your-character",
-"https://jamm-labs.github.io/3m/#polish-add-soundtrack-music",
-"https://jamm-labs.github.io/3m/#polish-animate-sprite-when-zapped",
-"https://jamm-labs.github.io/3m/#polish-screen-shake",
-"https://jamm-labs.github.io/3m/#polish-explosions-using-particles",
+"https://en.flossmanuals.net/phaser-game-making-in-glitch/_full/#polish-adding-our-own-sound-effects",
+"https://en.flossmanuals.net/phaser-game-making-in-glitch/_full/#polish-add-animation-to-your-character",
+"https://en.flossmanuals.net/phaser-game-making-in-glitch/_full/#polish-add-soundtrack-music",
+"https://en.flossmanuals.net/phaser-game-making-in-glitch/_full/#polish-animate-sprite-when-zapped",
+"https://en.flossmanuals.net/phaser-game-making-in-glitch/_full/#polish-screen-shake",
+"https://en.flossmanuals.net/phaser-game-making-in-glitch/_full/#polish-explosions-using-particles",
    ];
 
 
@@ -159,7 +159,7 @@ const space_description = [
 
 
 const space_example = [
-"https://glitch.com/edit/#!/polish-add-background-image?path=game.js",
+"https://glitch.com/edit/#!/polish-add-background-image?path=game.js",  
 "https://glitch.com/edit/#!/game-over-state-add?path=game.js",
 "https://glitch.com/edit/#!/add-polish-resizing-via-scaling?path=game.js",
 "https://glitch.com/edit/#!/gamespace-more-levels-simple?path=js/game.js",
@@ -169,13 +169,13 @@ const space_example = [
 ];
 
 const space_book = [
-"https://jamm-labs.github.io/3m/#polish-add-your-own-background",
-"https://jamm-labs.github.io/3m/#game-mechanic-extending-the-game-size",
-"https://jamm-labs.github.io/3m/#game-space-adding-levels",
-"https://jamm-labs.github.io/3m/#polish-scaling-our-game-and-sprites",
-"https://jamm-labs.github.io/3m/#game-space-add-game-over-screen",
-"https://jamm-labs.github.io/3m/#game-mechanic-keys-and-doors",
-"https://jamm-labs.github.io/3m/#polish-create-a-cut-opening-scene",
+"https://en.flossmanuals.net/phaser-game-making-in-glitch/_full/#polish-add-your-own-background",
+"https://en.flossmanuals.net/phaser-game-making-in-glitch/_full/#game-mechanic-extending-the-game-size",
+"https://en.flossmanuals.net/phaser-game-making-in-glitch/_full/#game-space-adding-levels",
+"https://en.flossmanuals.net/phaser-game-making-in-glitch/_full/#polish-scaling-our-game-and-sprites",
+"https://en.flossmanuals.net/phaser-game-making-in-glitch/_full/#game-space-add-game-over-screen",
+"https://en.flossmanuals.net/phaser-game-making-in-glitch/_full/#game-mechanic-keys-and-doors",
+"https://en.flossmanuals.net/phaser-game-making-in-glitch/_full/#polish-create-a-cut-opening-scene",
    ];
 
 
