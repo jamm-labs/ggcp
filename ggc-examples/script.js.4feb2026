@@ -61,15 +61,14 @@ const gm_example = [
 ];
 
 const gm_book = [
-  "https://3m-phaser.flossmanuals.net/docs/ch009/",
-  "https://3m-phaser.flossmanuals.net/docs/ch010/",
-  "https://3m-phaser.flossmanuals.net/docs/ch011/",
-  "https://3m-phaser.flossmanuals.net/docs/ch012/",
-  "https://3m-phaser.flossmanuals.net/docs/ch013/",
-  "https://3m-phaser.flossmanuals.net/docs/ch014/",
-  "https://3m-phaser.flossmanuals.net/docs/ch015/",
-];
-
+"https://jamm-labs.github.io/3m/#game-mechanic-add-moving-enemies",
+"https://jamm-labs.github.io/3m/#game-mechanic-jumping-on-enemies",
+"https://jamm-labs.github.io/3m/#game-mechanic-add-a-countdown-timer",
+"https://jamm-labs.github.io/3m/#game-mechanic-longer-jumps-if-holding-jump-down",
+"https://jamm-labs.github.io/3m/#game-mechanic-smaller-sprite-collision-boxes",
+"https://jamm-labs.github.io/3m/#game-mechanic-extra-lives",
+"https://jamm-labs.github.io/3m/#game-mechanic-player-health",
+   ];
 
 galleryItems.forEach((item,i) => item.style.backgroundImage = `url(${src[i]})`);
 galleryItems.forEach((item,i) => item.setAttribute("title1" , `${gm_description[i]}`));
@@ -113,13 +112,13 @@ const polish_example = [
 "https://glitch.com/edit/#!/add-polish-explosions-using-particles?path=game.js",
    ];
 
-   const polish_book = [
-     "https://3m-phaser.flossmanuals.net/docs/ch016/",
-     "https://3m-phaser.flossmanuals.net/docs/ch017/",
-     "https://3m-phaser.flossmanuals.net/docs/ch018/",
-     "https://3m-phaser.flossmanuals.net/docs/ch019/",
-     "https://3m-phaser.flossmanuals.net/docs/ch020/",
-     "https://3m-phaser.flossmanuals.net/docs/ch021/",
+const polish_book = [
+"https://jamm-labs.github.io/3m/#polish-adding-our-own-sound-effects",
+"https://jamm-labs.github.io/3m/#polish-add-animation-to-your-character",
+"https://jamm-labs.github.io/3m/#polish-add-soundtrack-music",
+"https://jamm-labs.github.io/3m/#polish-animate-sprite-when-zapped",
+"https://jamm-labs.github.io/3m/#polish-screen-shake",
+"https://jamm-labs.github.io/3m/#polish-explosions-using-particles",
    ];
 
 
@@ -172,15 +171,14 @@ const space_example = [
 ];
 
 const space_book = [
-  "https://3m-phaser.flossmanuals.net/docs/ch022/",
-  "https://3m-phaser.flossmanuals.net/docs/ch023/",
-  "https://3m-phaser.flossmanuals.net/docs/ch024/",
-  "https://3m-phaser.flossmanuals.net/docs/ch025/",
-  "https://3m-phaser.flossmanuals.net/docs/ch026/",
-  "https://3m-phaser.flossmanuals.net/docs/ch027/",
-  "https://3m-phaser.flossmanuals.net/docs/ch028/",
-];
-
+"https://jamm-labs.github.io/3m/#polish-add-your-own-background",
+"https://jamm-labs.github.io/3m/#game-mechanic-extending-the-game-size",
+"https://jamm-labs.github.io/3m/#game-space-adding-levels",
+"https://jamm-labs.github.io/3m/#polish-scaling-our-game-and-sprites",
+"https://jamm-labs.github.io/3m/#game-space-add-game-over-screen",
+"https://jamm-labs.github.io/3m/#game-mechanic-keys-and-doors",
+"https://jamm-labs.github.io/3m/#polish-create-a-cut-opening-scene",
+   ];
 
 
 spaceItems.forEach((item,i) => item.style.backgroundImage = `url(${space_src[i]})`);
