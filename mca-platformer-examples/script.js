@@ -31,7 +31,7 @@ const gm_book = [
 "https://3m-makecode.flossmanuals.net/docs/3_mechanics/movingenemiesanimated",
 "https://3m-makecode.flossmanuals.net/docs/3_mechanics/movingenemiespatrolling",
 "https://3m-makecode.flossmanuals.net/docs/3_mechanics/movingenemiesfollowing",
-"https://3m-makecode.flossmanuals.net/docs/3_mechanics/addLives",
+"https://3m-makecode.flossmanuals.net/docs/3_mechanics/addlives",
    ];
 
 galleryItems.forEach((item,i) => item.style.backgroundImage = `url(${src[i]})`);
@@ -71,7 +71,7 @@ const polish_src = [
 const polish_book = [
 "https://3m-makecode.flossmanuals.net/docs/4_polish/simplegraphicaleffects",
 "https://3m-makecode.flossmanuals.net/docs/4_polish/soundeffects",
-"https://3m-makecode.flossmanuals.net/docs/4_polish/soundtrack",
+"https://mickfuzz.github.io/makecode-platformer-101/soundTrack  ",
 "https://3m-makecode.flossmanuals.net/docs/4_polish/addmessages",
 "https://3m-makecode.flossmanuals.net/docs/4_polish/animateplayer",
 "https://3m-makecode.flossmanuals.net/docs/4_polish/makeplayerimmune",
