@@ -3,13 +3,13 @@
 const galleryItems = document.querySelectorAll('.zoom-inner');
 //const src = 'https://lorempixel.com/600/400/city/';
 const src = [
-"https://cdn.glitch.com/04730f0f-2c01-4c9a-9d1b-7728a6b9c2ef%2FgameMechanics_staticenemies.jpg?v=1592768834080",
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2FgameMechanics_jumping.jpg?1551473692625",
-"https://cdn.glitch.com/04730f0f-2c01-4c9a-9d1b-7728a6b9c2ef%2FgameMechanics_doublejump.jpg?v=1592768831396",
-"https://cdn.glitch.com/04730f0f-2c01-4c9a-9d1b-7728a6b9c2ef%2FgameMechanics_animatedenemies.jpg?v=1592768828722",
-"https://cdn.glitch.com/04730f0f-2c01-4c9a-9d1b-7728a6b9c2ef%2FgameMechanics_patrollingenemies.jpg?v=1592768825863",
-"https://cdn.glitch.com/04730f0f-2c01-4c9a-9d1b-7728a6b9c2ef%2FgameMechanics_followingenemies.jpg?v=1592768820330",
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2Fgamemechanic_extralives_800.png?1552402556128",
+"glitch-assets/gameMechanics_staticenemies.jpg?v=1592768834080",
+"glitch-assets/gameMechanics_jumping.jpg?1551473692625",
+"glitch-assets/gameMechanics_doublejump.jpg?v=1592768831396",
+"glitch-assets/gameMechanics_animatedenemies.jpg?v=1592768828722",
+"glitch-assets/gameMechanics_patrollingenemies.jpg?v=1592768825863",
+"glitch-assets/gameMechanics_followingenemies.jpg?v=1592768820330",
+"glitch-assets/gamemechanic_extralives_800.png?1552402556128",
    ];
 //console.log(src)
 
@@ -25,13 +25,13 @@ const src = [
 
 
 const gm_book = [
-"https://mickfuzz.github.io/makecode-platformer-101/addHazard",
-"https://mickfuzz.github.io/makecode-platformer-101/jumpOnEnemies",
-"https://mickfuzz.github.io/makecode-platformer-101/doubleJump",
-"https://mickfuzz.github.io/makecode-platformer-101/movingEnemiesAnimated",
-"https://mickfuzz.github.io/makecode-platformer-101/movingEnemiesPatrolling",
-"https://mickfuzz.github.io/makecode-platformer-101/movingEnemiesFollowing",
-"https://mickfuzz.github.io/makecode-platformer-101/addLives",
+"https://3m-makecode.flossmanuals.net/docs/3_mechanics/addhazard",
+"https://3m-makecode.flossmanuals.net/docs/3_mechanics/jumponenemies",
+"https://3m-makecode.flossmanuals.net/docs/3_mechanics/doublejump",
+"https://3m-makecode.flossmanuals.net/docs/3_mechanics/movingenemiesanimated",
+"https://3m-makecode.flossmanuals.net/docs/3_mechanics/movingenemiespatrolling",
+"https://3m-makecode.flossmanuals.net/docs/3_mechanics/movingenemiesfollowing",
+"https://3m-makecode.flossmanuals.net/docs/3_mechanics/addLives",
    ];
 
 galleryItems.forEach((item,i) => item.style.backgroundImage = `url(${src[i]})`);
@@ -49,12 +49,12 @@ const polishItems = document.querySelectorAll('.zoom-inner_2');
 //console.log(polishItems)
 
 const polish_src = [
-"https://cdn.glitch.com/04730f0f-2c01-4c9a-9d1b-7728a6b9c2ef%2Fgame_polish_graphical_effect.jpg?v=1592769469073",
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2Fgame_polish_new_sounds.jpg?1551524948349",
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2Fgame_polish_soundtrack.png?1551473693380",
-"https://cdn.glitch.com/04730f0f-2c01-4c9a-9d1b-7728a6b9c2ef%2Fgame_polish_storywithmessages.jpg?v=1592769466732",
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2Fgame_polish_animate.jpg?1551523720117",
-"https://cdn.glitch.com/04730f0f-2c01-4c9a-9d1b-7728a6b9c2ef%2Fgame_polish_makeplayerimmune.jpg?v=1592769463886",
+"glitch-assets/game_polish_graphical_effect.jpg?v=1592769469073",
+"glitch-assets/game_polish_new_sounds.jpg?1551524948349",
+"glitch-assets/game_polish_soundtrack.png?1551473693380",
+"glitch-assets/game_polish_storywithmessages.jpg?v=1592769466732",
+"glitch-assets/game_polish_animate.jpg?1551523720117",
+"glitch-assets/game_polish_makeplayerimmune.jpg?v=1592769463886",
    ];
 
 // const polish_description = [
@@ -69,12 +69,12 @@ const polish_src = [
 
 
 const polish_book = [
-"https://mickfuzz.github.io/makecode-platformer-101/simpleGraphicalEffects",
-"https://mickfuzz.github.io/makecode-platformer-101/soundEffects",
-"https://mickfuzz.github.io/makecode-platformer-101/soundTrack",
-"https://mickfuzz.github.io/makecode-platformer-101/addMessages",
-"https://mickfuzz.github.io/makecode-platformer-101/animatePlayer",
-"https://mickfuzz.github.io/makecode-platformer-101/makePlayerImmune",
+"https://3m-makecode.flossmanuals.net/docs/4_polish/simplegraphicaleffects",
+"https://3m-makecode.flossmanuals.net/docs/4_polish/soundeffects",
+"https://3m-makecode.flossmanuals.net/docs/4_polish/soundtrack",
+"https://3m-makecode.flossmanuals.net/docs/4_polish/addmessages",
+"https://3m-makecode.flossmanuals.net/docs/4_polish/animateplayer",
+"https://3m-makecode.flossmanuals.net/docs/4_polish/makeplayerimmune",
    ];
 
 
@@ -96,11 +96,11 @@ const spaceItems = document.querySelectorAll('.zoom-inner_3');
 //console.log(polishItems)
 
 const space_src = [
-"https://cdn.glitch.com/04730f0f-2c01-4c9a-9d1b-7728a6b9c2ef%2FgameSpace_leveldesign.jpg?v=1592769886123",
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2FgameSpace_moreLevels.jpg?1553025336947",
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2FgameSpace_gameSize.jpg?1553025336727",
-  "https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2FgameSpace_background_image.jpg?1553025336829",
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2FgameSpace_keysDoors.jpg?1553025337108",
+"glitch-assets/gameSpace_leveldesign.jpg?v=1592769886123",
+"glitch-assets/gameSpace_moreLevels.jpg?1553025336947",
+"glitch-assets/gameSpace_gameSize.jpg?1553025336727",
+  "glitch-assets/gameSpace_background_image.jpg?1553025336829",
+"glitch-assets/gameSpace_keysDoors.jpg?1553025337108",
    ];
 
 // const space_description = [
@@ -115,11 +115,11 @@ const space_src = [
 
 
 const space_book = [
-"https://mickfuzz.github.io/makecode-platformer-101/changeLevelDesign",
-"https://mickfuzz.github.io/makecode-platformer-101/addLevels",
-"https://mickfuzz.github.io/makecode-platformer-101/changeLevelShape",
-"https://mickfuzz.github.io/makecode-platformer-101/changeBackgroundImage",
-"https://mickfuzz.github.io/makecode-platformer-101/keyAndDoor",
+"https://3m-makecode.flossmanuals.net/docs/5_space/changeleveldesign",
+"https://3m-makecode.flossmanuals.net/docs/5_space/addlevels",
+"https://3m-makecode.flossmanuals.net/docs/5_space/changelevelshape",
+"https://3m-makecode.flossmanuals.net/docs/5_space/changebackgroundimage",
+"https://3m-makecode.flossmanuals.net/docs/5_space/keyanddoor",
 
    ];
 
@@ -141,12 +141,12 @@ const challengeItems = document.querySelectorAll('.zoom-inner_4');
 //console.log(polishItems)
 
 const challenge_src = [
-"https://cdn.glitch.com/04730f0f-2c01-4c9a-9d1b-7728a6b9c2ef%2FgameChallenge_gainpoints.jpg?v=1592766950711",
-"https://cdn.glitch.com/04730f0f-2c01-4c9a-9d1b-7728a6b9c2ef%2FgameChallenge_countdown.jpg?v=1592766953452",
-"https://cdn.glitch.com/04730f0f-2c01-4c9a-9d1b-7728a6b9c2ef%2FgameChallenge_collectallfood.jpg?v=1592766946782",
-"https://cdn.glitch.com/04730f0f-2c01-4c9a-9d1b-7728a6b9c2ef%2FgameChallenge_poweruphigherjump.jpg?v=1592766944082",
-"https://cdn.glitch.com/04730f0f-2c01-4c9a-9d1b-7728a6b9c2ef%2FgameChallenge_powerupspeed.jpg?v=1592766941055",
-"https://cdn.glitch.com/04730f0f-2c01-4c9a-9d1b-7728a6b9c2ef%2FgameChallenge_doublingenemies.jpg?v=1592766936864",
+"glitch-assets/gameChallenge_gainpoints.jpg?v=1592766950711",
+"glitch-assets/gameChallenge_countdown.jpg?v=1592766953452",
+"glitch-assets/gameChallenge_collectallfood.jpg?v=1592766946782",
+"glitch-assets/gameChallenge_poweruphigherjump.jpg?v=1592766944082",
+"glitch-assets/gameChallenge_powerupspeed.jpg?v=1592766941055",
+"glitch-assets/gameChallenge_doublingenemies.jpg?v=1592766936864",
    ];
 
 // const challenge_description = [
@@ -161,12 +161,12 @@ const challenge_src = [
 
 
 const challenge_book = [
-"https://mickfuzz.github.io/makecode-platformer-101/collectPoints",
-"https://mickfuzz.github.io/makecode-platformer-101/addTimer",
-"https://mickfuzz.github.io/makecode-platformer-101/collectAllFood",
-"https://mickfuzz.github.io/makecode-platformer-101/powerUpJump",
-"https://mickfuzz.github.io/makecode-platformer-101/powerUpSpeed",
-"https://mickfuzz.github.io/makecode-platformer-101/randomDoublingEnemies",
+"https://3m-makecode.flossmanuals.net/docs/6_challenge/collectpoints",
+"https://3m-makecode.flossmanuals.net/docs/6_challenge/addtimer",
+"https://3m-makecode.flossmanuals.net/docs/6_challenge/collectallfood",
+"https://3m-makecode.flossmanuals.net/docs/6_challenge/powerupjump",
+"https://3m-makecode.flossmanuals.net/docs/6_challenge/powerupspeed",
+"https://3m-makecode.flossmanuals.net/docs/6_challenge/randomdoublingenemies",
    ];
 
 
