@@ -27,30 +27,30 @@ var game = new Phaser.Game(550, 400, Phaser.AUTO, "game-div", "", false, false);
 var playState = {};
 
 playState.preload = function () {
-  
-    // These three lines make the game as large as possible on our screens   
+
+    // These three lines make the game as large as possible on our screens
     game.scale.scaleMode = Phaser.ScaleManager.SHOW_ALL;
     game.scale.pageAlignHorizontally = true;
     game.scale.pageAlignVertically = true;
 
     // Here we preload the image assets - make more here http://piskelapp.com
     game.load.crossOrigin = "anonymous";
-  
-    game.load.image("player", 
-      "https://cdn.glitch.com/05027ea3-25db-40c7-803e-2f710bf696a1%2Fplayer.png");
-    
-    //game.load.spritesheet("player", "https://cdn.glitch.com/05027ea3-25db-40c7-803e-2f710bf696a1%2Fplayer_anim.png?1550737952823",32,32); 
-  
-    game.load.image("platform", "https://cdn.glitch.com/05027ea3-25db-40c7-803e-2f710bf696a1%2Fwall.png");
-    game.load.image("coin", "https://cdn.glitch.com/05027ea3-25db-40c7-803e-2f710bf696a1%2Fcoin.png");
-    game.load.image("enemy", 
-      "https://cdn.glitch.com/05027ea3-25db-40c7-803e-2f710bf696a1%2Fhazard.png");
-  
+
+    game.load.image("player",
+      "glitch-assets/player.png");
+
+    //game.load.spritesheet("player", "glitch-assets/player_anim.png?1550737952823",32,32);
+
+    game.load.image("platform", "glitch-assets/wall.png");
+    game.load.image("coin", "glitch-assets/coin.png");
+    game.load.image("enemy",
+      "glitch-assets/hazard.png");
+
     // Here we preload the audio assets - you can make more here http://sfbgames.com/chiptone/
-    game.load.audio("win", 
-      "https://cdn.glitch.com/7d465f0a-9a16-4b20-a563-da0caa7d7beb%2Fwin.wav");
-    game.load.audio("splat", 
-      "https://cdn.glitch.com/7d465f0a-9a16-4b20-a563-da0caa7d7beb%2Fsplat.wav");
+    game.load.audio("win",
+      "glitch-assets/win.wav");
+    game.load.audio("splat",
+      "glitch-assets/splat.wav");
 
 };
 
@@ -58,7 +58,7 @@ playState.create = function () {
     // Here we create the game, starting with the background colour
     game.stage.backgroundColor = "#5699ab";
     // alternate colours - purple #ff33c3 - black #000000 - green #00c934 or choose one here https://htmlcolorcodes.com/color-picker/
-  
+
     // These two lines add physics to the game world
     game.physics.startSystem(Phaser.Physics.ARCADE);
     game.world.enableBody = true;
@@ -99,8 +99,8 @@ playState.create = function () {
         "                 ",
         "    o   h    h   ",
         "xxxxxxxxxxxxxxxxx"
-    ];  
-  
+    ];
+
     var level2 = [
         "                o",
         "                 ",
@@ -131,19 +131,19 @@ playState.create = function () {
         "xxxxxxxxxxxxxxxxx"
     ];
 
-    // find out what the level is and send that data to the LoadLevel function - add an extra code for each level after that 
+    // find out what the level is and send that data to the LoadLevel function - add an extra code for each level after that
     if (!currentLevel || currentLevel === 1) {
       loadLevel(level1);
       // add extra code for just level one here
-      
-    } else if (currentLevel === 2) {      
+
+    } else if (currentLevel === 2) {
       loadLevel(level2);
       // add extra code for just level two after here
-      
+
     } else if (currentLevel === 3) {
       loadLevel(level3);
       // add extra code for just level three after here
-      
+
     }
 };
 
@@ -166,19 +166,19 @@ playState.update = function () {
     // add the controls for the cursor keys
     if (game.input.keyboard.isDown(Phaser.Keyboard.LEFT) === true) {
         player.body.velocity.x = -velocity_x;
-    } 
+    }
     else if (game.input.keyboard.isDown(Phaser.Keyboard.RIGHT) === true) {
         player.body.velocity.x = velocity_x;
     }
     else {
         player.body.velocity.x = 0;
     }
-  
+
     // Make the player jump only if he is touching down on something
     if (game.input.keyboard.isDown(Phaser.Keyboard.UP) === true && player.body.touching.down === true) {
         player.body.velocity.y = -velocity_y;
     }
-    
+
     //if the player has collected all the coins move them on to the next level
     if (coins.total === 0) {
         nextLevel();
@@ -216,18 +216,18 @@ var nextLevel = function () {
   function loadLevel (level) {
       for (var i = 0; i < level.length; i = i + 1) {
           for (var j = 0; j < level[i].length; j = j + 1) {
-              if (level[i][j] === "x") { 
+              if (level[i][j] === "x") {
                   // Create a wall and add it to the 'platform' group
                   var platform = game.add.sprite(0 + 32 * j, 0 + 32 * i, "platform");
                   platform.body.immovable = true;
                   platforms.add(platform);
 
-              } else if (level[i][j] === "o") { 
+              } else if (level[i][j] === "o") {
                   // Create a coin and add it to the 'coins' group
                   var coin = game.add.sprite(0 + 32 * j, 0 + 32 * i, "coin");
                   coins.add(coin);
 
-              } else if (level[i][j] === "h") { 
+              } else if (level[i][j] === "h") {
                   // Create a enemy and add it to the 'enemies' group
                   var enemy = game.add.sprite(0 + 32 * j, 0 + 32 * i, "enemy");
                   enemies.add(enemy);

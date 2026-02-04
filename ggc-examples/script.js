@@ -28,12 +28,12 @@ const galleryItems = document.querySelectorAll('.zoom-inner');
 //const src = 'https://lorempixel.com/600/400/city/';
 const src = [
 "glitch-assets/gameMechanics_moving_enemies.jpg?1552396669945",
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2FgameMechanics_jumping.jpg?1551473692625",
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2Fgame-mechanics_timer.jpg?1551473692531",
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2FgameMechanics_jum_height.jpg?1551473692663",
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2FgameMechanics_hitboxes.jpg?1551473693339",
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2Fgamemechanic_extralives_800.png?1552402556128",
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2Fgame-mechanics_health.jpg?1551473693216",
+"glitch-assets/gameMechanics_jumping.jpg?1551473692625",
+"glitch-assets/game-mechanics_timer.jpg?1551473692531",
+"glitch-assets/gameMechanics_jum_height.jpg?1551473692663",
+"glitch-assets/gameMechanics_hitboxes.jpg?1551473693339",
+"glitch-assets/gamemechanic_extralives_800.png?1552402556128",
+"glitch-assets/game-mechanics_health.jpg?1551473693216",
    ];
 //console.log(src)
 
@@ -83,12 +83,12 @@ const polishItems = document.querySelectorAll('.zoom-inner_2');
 //console.log(polishItems)
 
 const polish_src = [
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2Fgame_polish_new_sounds.jpg?1551524948349",
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2Fgame_polish_animate.jpg?1551523720117",
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2Fgame_polish_soundtrack.png?1551473693380",
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2Fgame_polish_animate_zapped_sprite.jpg?1551473693598",
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2Fgame_polish_shake_screen_effect.jpg?1551525502043",
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2Fgame_polish_explosion.jpg?1551473693282",
+"glitch-assets/game_polish_new_sounds.jpg?1551524948349",
+"glitch-assets/game_polish_animate.jpg?1551523720117",
+"glitch-assets/game_polish_soundtrack.png?1551473693380",
+"glitch-assets/game_polish_animate_zapped_sprite.jpg?1551473693598",
+"glitch-assets/game_polish_shake_screen_effect.jpg?1551525502043",
+"glitch-assets/game_polish_explosion.jpg?1551473693282",
    ];
 
 const polish_description = [
@@ -138,13 +138,13 @@ const spaceItems = document.querySelectorAll('.zoom-inner_3');
 //console.log(polishItems)
 
 const space_src = [
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2FgameSpace_background_image.jpg?1553025336829",
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2FgameSpace_moreLevels.jpg?1553025336947",
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2FgameSpace_gameSize.jpg?1553025336727",
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2FgameSpace_scaling.jpg?1553025337014",
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2Fgame_space_gameover.png?1557910238840",
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2FgameSpace_keysDoors.jpg?1553025337108",
-"https://cdn.glitch.com/d8e86cfb-15bc-4681-aea2-2a321ccad370%2FgameSpace_cutscene.jpg?1553026080067",
+"glitch-assets/gameSpace_background_image.jpg?1553025336829",
+"glitch-assets/gameSpace_moreLevels.jpg?1553025336947",
+"glitch-assets/gameSpace_gameSize.jpg?1553025336727",
+"glitch-assets/gameSpace_scaling.jpg?1553025337014",
+"glitch-assets/game_space_gameover.png?1557910238840",
+"glitch-assets/gameSpace_keysDoors.jpg?1553025337108",
+"glitch-assets/gameSpace_cutscene.jpg?1553026080067",
    ];
 
 const space_description = [
